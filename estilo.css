@@ -34,7 +34,32 @@ ul {
     background-color: black;
 }
 
+
+#datos {
+    column-count: 2;
+	column-gap: 20px;
+	display: flex;
+}
+
+
+
+.datos_info {
+    font-family: 'Raleway', sans-serif;
+    color:white;
+}
+
+
 /* Líneas de subte */
+.listas {
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    width: 400px;
+    height: 250px;
+    padding-left: 30px;
+    padding-right: 1px;
+}
+
 #linea_a {
     color: rgb(0, 204, 255);
 }
@@ -66,8 +91,14 @@ ul {
 }
 
 #imagen {
-    display: flex;
+    border: 1px solid;
+    border-color: white;
+    border-radius: 10px;
+    text-align: center;
+}
 
+#txt_Teatro {
+    text-align: center;
 }
 
 /* Formulario */
